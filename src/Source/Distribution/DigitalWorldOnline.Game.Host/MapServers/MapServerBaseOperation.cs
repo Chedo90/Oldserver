@@ -703,7 +703,7 @@ namespace DigitalWorldOnline.GameHost
         public async Task CallDiscord(string message, GameClient tamer, string coloured, string local, string Channel = "1279300679097385001", bool custom = false)
         {
             var myChannel = Channel;
-            var myToken = "MTA3NzM0OTg1NDI4MTQ3NDA5MA.GRZeRp.KJbTwjebPDZR2YnsVaWAyrsekmhZ_RW1GW-c3U";
+            var myToken = "";
 
             var payload = new
             {
